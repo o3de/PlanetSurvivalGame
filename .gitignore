@@ -1,0 +1,37 @@
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Build
+[Bb]uild/**
+
+# Asset Processor
+AssetProcessorTemp/**
+[Cc]ache/
+
+# Python files 
+**/*egg-info/**
+**/*egg-link
+__pycache__
+
+# Logs
+Editor/EditorEventLog.xml
+Editor/EditorLayout.xml
+scripts/project_manager/logs/
+
+# Local user
+[Uu]ser/
+UserSettings.xml
+user*.cfg
+FrameCapture/**
+
+# DCC 
+*.swatches
+.mayaSwatches/
+
+# Level
+_savebackup/
+
