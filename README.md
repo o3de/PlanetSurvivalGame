@@ -1,23 +1,32 @@
-# BASE PLANET 3
+# Planet Survival Game - Proof of concept Point and Click Turn Based Strategy Game
 
 # By Starr Shaw
 
 Project Or Game Description:
 
-Base Planet 3 (The 3rd planet in the local system.) is a 3D Top Down Puzzle Click and Point Adventure. We start by landing on Base Planet 3 with limited fuel, our first mission is to recharge are ship with locating a local natural power on the planet in the form of Power Crystals. The Local residence of Base Planet 3 might not like this and attempt to stop this energy collection grab. We must explore the planet and find resources. The Planet is made of of procedural crafted squares with a variety of enemy encounters, puzzles, and task to preform. If you run out of power completely, or attack and loose an enemy fight, the game ends.
+Planet Survival Game is a Proof of concept Point and Click Turn Based Strategy Game. We start by landing on planet environment tile, with limited fuel, our first mission is to recharge are ship with locating a natural power on the planet in the form of Power Crystals. The Local residence of this area might not like this and attempt to stop this energy collection grab. We must explore the planet and find resources. The Planet is made of of procedural crafted squares with a variety of enemy encounters, puzzles, and task to preform. If you run out of power completely, or attack and loose an enemy fight, the game ends.
 
-https://user-images.githubusercontent.com/87207603/198746412-0cfc66ac-4d37-4425-a8fa-f6c59588cc3e.mp4
+https://user-images.githubusercontent.com/87207603/201387109-4a65bdb9-7f70-43f3-8ab0-f47d8416ba1f.mp4
 
 ## The Project Includes
+
+![GamePlay](https://user-images.githubusercontent.com/87207603/201390591-a88dd221-f9d2-4046-9a25-2d4b92052924.gif)
 
 - **Planet environment**, includes Many Size Rocks, Plants, Lava Spouts and Main Playing Island Grid.
 - **Alien Explorer**, a ready to use character model, with multiple character animations such as, wal and attack. Is modular with Many Skin Attachments.
 - **AI Player**, The Buggy AI Character will use the Nav Mesh to seek and move toward your Clayer character.
 - **Script Canvas Visual Scripts,** editable Script Canvas visual scripts for main and in game menu interaction, gameplay and player movement.
 
-![image(3)](https://user-images.githubusercontent.com/87207603/199318674-ac868421-a178-4ae8-bdc3-8aea5a04a8c1.png)
-![image(2)](https://user-images.githubusercontent.com/87207603/199318695-e7705aac-2a79-4a53-9af5-d78fece65a29.png)
-![image(6)](https://user-images.githubusercontent.com/87207603/199318709-c403c229-0e83-48ea-8421-9ae6e442cfb6.png)
+![Main_Char](https://user-images.githubusercontent.com/87207603/201388588-d6bc5874-3e3e-4724-b8cc-e50b0fb8921b.gif)
+
+![image(2)](https://user-images.githubusercontent.com/87207603/201387806-88ade873-1bbf-4f7a-a2d1-c1fad25cc6c1.png)
+![image(3)](https://user-images.githubusercontent.com/87207603/201387824-baa998fa-1bd3-467f-9fc2-d170633ed1f1.png)
+![image(6)](https://user-images.githubusercontent.com/87207603/201387893-7b570b7e-ccb6-45d5-a016-51e2ec35d233.png)
+
+
+https://user-images.githubusercontent.com/87207603/201387317-6cfdab7f-df73-40d4-98ed-80b477a3d8bb.mp4
+
+
 
 ## Game Levels
 
