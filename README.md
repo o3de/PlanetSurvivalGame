@@ -1,10 +1,10 @@
-# Planet Survival Game - Proof of concept Point and Click Turn Based Strategy Game
+# Planet Survival Game - Proof of Concept Point and Click, Turn Based Strategy Game.
 
 # By Starr Shaw
 
 Project Or Game Description:
 
-Planet Survival Game is a Proof of concept Point and Click Turn Based Strategy Game. We start by landing on planet environment tile, with limited fuel, our first mission is to recharge are ship with locating a natural power on the planet in the form of Power Crystals. The Local residence of this area might not like this and attempt to stop this energy collection grab. We must explore the planet and find resources. The Planet is made of of procedural crafted squares with a variety of enemy encounters, puzzles, and task to preform. If you run out of power completely, or attack and loose an enemy fight, the game ends.
+Planet Survival Game is a Proof of concept Point and Click Turn Based Strategy Game. We start by landing on planet environment tile, with limited fuel, our first mission is to recharge are ship with locating a natural power on the planet in the form of Power Crystals. The Local residence of this area might not like this and attempt to stop this energy collection grab. We must explore the planet and find resources. The Planet is made of of procedural crafted squares with a variety of enemy encounters, puzzles, and task to perform. If you run out of power completely, or attack and loose an enemy fight, the game ends.
 
 https://user-images.githubusercontent.com/87207603/201387109-4a65bdb9-7f70-43f3-8ab0-f47d8416ba1f.mp4
 
@@ -13,9 +13,10 @@ https://user-images.githubusercontent.com/87207603/201387109-4a65bdb9-7f70-43f3-
 ![GamePlay](https://user-images.githubusercontent.com/87207603/201390591-a88dd221-f9d2-4046-9a25-2d4b92052924.gif)
 
 - **Planet environment**, includes Many Size Rocks, Plants, Lava Spouts and Main Playing Island Grid.
-- **Alien Explorer**, a ready to use character model, with multiple character animations such as, wal and attack. Is modular with Many Skin Attachments.
-- **AI Player**, The Buggy AI Character will use the Nav Mesh to seek and move toward your Clayer character.
+- **Alien Explorer**, a ready to use character model, with multiple character animations such as, walk and attack. Is modular with Many Skin Attachments.
+- **AI Player**, The Buggy AI Character will use the Nav Mesh to seek and move toward your Player character.
 - **Script Canvas Visual Scripts,** editable Script Canvas visual scripts for main and in game menu interaction, gameplay and player movement.
+
 
 - Main Player
 
