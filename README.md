@@ -209,8 +209,3 @@ source code may be found at https://github.com/chardet/chardet.
 
 https://github.com/recastnavigation/recastnavigation/blob/master/License.txt
 
-3D Assets exported with O3DE DCCs Blender Scene Exporter found here:
-
-https://github.com/o3de/o3de/tree/development/Gems/AtomLyIntegration/TechnicalArt/DccScriptingInterface/Tools/DCC/Blender/AddOns/SceneExporter
-
-
