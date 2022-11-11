@@ -17,13 +17,18 @@ https://user-images.githubusercontent.com/87207603/201387109-4a65bdb9-7f70-43f3-
 - **AI Player**, The Buggy AI Character will use the Nav Mesh to seek and move toward your Clayer character.
 - **Script Canvas Visual Scripts,** editable Script Canvas visual scripts for main and in game menu interaction, gameplay and player movement.
 
-Main Player
+- Main Player
+
 ![Main_Char](https://user-images.githubusercontent.com/87207603/201388588-d6bc5874-3e3e-4724-b8cc-e50b0fb8921b.gif)
-In-Game Screen Shot 1
+
+- In-Game Screen Shot 1
+- 
 ![image(2)](https://user-images.githubusercontent.com/87207603/201387806-88ade873-1bbf-4f7a-a2d1-c1fad25cc6c1.png)
-In-Game Screen Shot 2
+- In-Game Screen Shot 2
+- 
 ![image(3)](https://user-images.githubusercontent.com/87207603/201387824-baa998fa-1bd3-467f-9fc2-d170633ed1f1.png)
-In-Game Screen Shot 3
+- In-Game Screen Shot 3
+- 
 ![image(6)](https://user-images.githubusercontent.com/87207603/201387893-7b570b7e-ccb6-45d5-a016-51e2ec35d233.png)
 
 
