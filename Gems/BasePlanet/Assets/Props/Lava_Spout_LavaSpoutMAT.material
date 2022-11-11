@@ -1,0 +1,25 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.7758297324180603,
+            0.5457236766815186,
+            0.1441214680671692,
+            1.0
+        ],
+        "baseColor.textureMap": "textures/LavaSpoutMAT_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "irradiance.irradianceColorSource": "BaseColor",
+        "normal.factor": 0.5199999809265137,
+        "normal.textureMap": "textures/LavaSpoutMAT_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.textureMap": "textures/LavaMAT_Roughness.png",
+        "specularF0.factor": 0.23999999463558197
+    }
+}

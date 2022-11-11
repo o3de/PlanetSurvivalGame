@@ -1,0 +1,275 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "LavaSpout",
+        "Components": {
+            "Component_[10219198155118471118]": {
+                "$type": "EditorLockComponent",
+                "Id": 10219198155118471118
+            },
+            "Component_[11078346300575015822]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11078346300575015822,
+                "Child Entity Order": [
+                    "Entity_[4292500333408]"
+                ]
+            },
+            "Component_[11824778652105257088]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11824778652105257088,
+                "Parent Entity": "",
+                "Transform Data": {
+                    "Translate": [
+                        -4.678729057312012,
+                        5.035219192504883,
+                        0.7845640182495117
+                    ]
+                }
+            },
+            "Component_[1449649094802412681]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1449649094802412681
+            },
+            "Component_[18043630423737877067]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 18043630423737877067
+            },
+            "Component_[2094386071349508953]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 2094386071349508953
+            },
+            "Component_[5077099398067277019]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5077099398067277019
+            },
+            "Component_[7338181140997308959]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 7338181140997308959
+            },
+            "Component_[7880359385450010876]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7880359385450010876
+            },
+            "Component_[8122614329964265046]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8122614329964265046
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[4292500333408]": {
+            "Id": "Entity_[4292500333408]",
+            "Name": "LavaSpout",
+            "Components": {
+                "Component_[13057742145153973276]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13057742145153973276,
+                    "Child Entity Order": [
+                        "Entity_[4296795300704]"
+                    ]
+                },
+                "Component_[13509512608690242076]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13509512608690242076
+                },
+                "Component_[14157070746390782548]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14157070746390782548,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2416524118
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DD18C19A-9702-52DA-8FF9-DDCAD7483541}"
+                                            },
+                                            "assetHint": "props/lava_spout_lavaspoutmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2750935807
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{FEBE500B-97B6-5A03-B897-FCBB8CECA66D}"
+                                            },
+                                            "assetHint": "props/lava_spout_lavamat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[1427693316264542842]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1427693316264542842
+                },
+                "Component_[15188101092598111709]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15188101092598111709
+                },
+                "Component_[18303286544686671721]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18303286544686671721
+                },
+                "Component_[3327466015787788348]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3327466015787788348
+                },
+                "Component_[3384469577002962871]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3384469577002962871
+                },
+                "Component_[6048236546326037905]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6048236546326037905,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8746019455264652770
+                        },
+                        {
+                            "ComponentId": 7082220076123573623,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 14157070746390782548,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7082220076123573623]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7082220076123573623,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{2591832F-27A6-558F-A436-D00AD242C3BC}",
+                                    "subId": 277475843
+                                },
+                                "assetHint": "props/lava_spout.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[8746019455264652770]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8746019455264652770,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            -0.04563266038894653
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[4296795300704]": {
+            "Id": "Entity_[4296795300704]",
+            "Name": "Steam",
+            "Components": {
+                "Component_[1162181950780756107]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1162181950780756107
+                },
+                "Component_[1178803327780094178]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1178803327780094178
+                },
+                "Component_[12278880721726468362]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 12278880721726468362,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{44D80225-920F-5E6F-B226-9F4860A62B17}",
+                            "subId": 3946158951
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "props/lava_spout_steam.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentTarget": ""
+                },
+                "Component_[13226218454283624101]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13226218454283624101
+                },
+                "Component_[13335094762863084000]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13335094762863084000,
+                    "Parent Entity": "Entity_[4292500333408]"
+                },
+                "Component_[13923175332723907955]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13923175332723907955,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1645290187
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3D94358D-9CE6-5E14-BFD4-DF9A187AB767}"
+                                            },
+                                            "assetHint": "props/lava_spout_steam_steammat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17405527295574869707]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17405527295574869707
+                },
+                "Component_[18298078768543347856]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18298078768543347856
+                },
+                "Component_[3289949138910149685]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3289949138910149685
+                },
+                "Component_[714712196699647188]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 714712196699647188
+                },
+                "Component_[7588437963996070694]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7588437963996070694
+                },
+                "Component_[8265251517839932001]": {
+                    "$type": "EditorSimpleMotionComponent",
+                    "Id": 8265251517839932001,
+                    "PreviewInEditor": true,
+                    "Configuration": {
+                        "MotionAsset": {
+                            "assetId": {
+                                "guid": "{44D80225-920F-5E6F-B226-9F4860A62B17}",
+                                "subId": 624731756
+                            },
+                            "assetHint": "props/lava_spout_steam.motion"
+                        },
+                        "Loop": true
+                    }
+                }
+            }
+        }
+    }
+}

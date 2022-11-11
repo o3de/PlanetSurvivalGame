@@ -1,0 +1,134 @@
+{
+    "Amazon": {
+        "Gems": {
+            "PhysX": {
+                "PhysXSystemConfiguration": {
+                    "CollisionConfig": {
+                        "Layers": {
+                            "LayerNames": [
+                                "Default",
+                                "Grid",
+                                "Ship",
+                                "Player",
+                                "Buggy",
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
+                        },
+                        "Groups": {
+                            "GroupPresets": [
+                                {
+                                    "Name": "All",
+                                    "ReadOnly": true
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{3E1223CA-5760-4CA0-83C0-884F85EBA9EB}"
+                                    },
+                                    "Name": "None",
+                                    "Group": {
+                                        "Mask": 0
+                                    },
+                                    "ReadOnly": true
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{81B60FD7-59B6-4146-8201-FDEB383C1930}"
+                                    },
+                                    "Name": "GridSpot",
+                                    "Group": {
+                                        "Mask": 18446744073709551610
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{09D6B7BA-E591-4E37-9031-4938A1415705}"
+                                    },
+                                    "Name": "Ship",
+                                    "Group": {
+                                        "Mask": 18446744073709551612
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{6E408A27-84BE-4242-8733-F2A7CD2B26B8}"
+                                    },
+                                    "Name": "Player",
+                                    "Group": {
+                                        "Mask": 18446744073709551604
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{817AAFDC-D6E8-4461-9310-33D98F86A477}"
+                                    },
+                                    "Name": "Buggy",
+                                    "Group": {
+                                        "Mask": 18446744073709551592
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

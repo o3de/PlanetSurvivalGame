@@ -1,0 +1,3 @@
+[General]
+version=1
+startScript=ImportActor -filename \"characters/mainplayer/main_player.actor\"\nLoadMotionSet -filename \"@products@/Assets/MotionSets/Main_Player.motionset\"\nLoadAnimGraph -filename \"@products@/Assets/AnimationEditor/Main_Player.animgraph\"\nActivateAnimGraph -actorInstanceID -1 -animGraphID %LASTRESULT1% -motionSetID %LASTRESULT2% -visualizeScale 1.000000\n

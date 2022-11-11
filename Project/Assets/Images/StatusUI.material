@@ -1,0 +1,14 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "status.attimage",
+        "general.doubleSided": true,
+        "general.enableAreaLights": false,
+        "general.enableDirectionalLights": false,
+        "general.enableIBL": false,
+        "general.enablePunctualLights": false,
+        "general.enableShadows": false
+    }
+}

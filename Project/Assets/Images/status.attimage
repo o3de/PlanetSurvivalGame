@@ -1,0 +1,21 @@
+{
+    "Type": "JsonSerialization",
+    "Version": 1,
+    "ClassName": "AttachmentImageAsset",
+    "ClassData": {
+        "m_imageDescriptor": {
+            "BindFlags": [
+                "ShaderRead",
+                "ShaderWrite",
+                "Color"
+            ],
+            "Size": {
+                "Width": 2048,
+                "Height": 2048
+            },
+            "Format": 19
+        },
+        "Name": "$UiCanvasTexture",
+        "IsUniqueName": true
+    }
+}

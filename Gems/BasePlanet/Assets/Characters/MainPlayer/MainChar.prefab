@@ -1,0 +1,873 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "MainChar",
+        "Components": {
+            "Component_[12536374750217919093]": {
+                "$type": "SelectionComponent",
+                "Id": 12536374750217919093
+            },
+            "Component_[13035222100847125106]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13035222100847125106
+            },
+            "Component_[18020203492688021157]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 18020203492688021157
+            },
+            "Component_[3506338367455025047]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3506338367455025047
+            },
+            "Component_[3923778703818304805]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 3923778703818304805
+            },
+            "Component_[492149132837755564]": {
+                "$type": "EditorLockComponent",
+                "Id": 492149132837755564
+            },
+            "Component_[5331671921724374072]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5331671921724374072,
+                "Child Entity Order": [
+                    "Entity_[974221649361]"
+                ]
+            },
+            "Component_[5916331701859026542]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5916331701859026542
+            },
+            "Component_[7748246873719087820]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7748246873719087820
+            },
+            "Component_[7861185129156580811]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7861185129156580811,
+                "Parent Entity": ""
+            },
+            "Component_[8633364927157444799]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8633364927157444799
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[952746812881]": {
+            "Id": "Entity_[952746812881]",
+            "Name": "Watch",
+            "Components": {
+                "Component_[11879473961393091908]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11879473961393091908
+                },
+                "Component_[12268650148104466277]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12268650148104466277
+                },
+                "Component_[12324800677608511929]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12324800677608511929
+                },
+                "Component_[1585670352088108780]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1585670352088108780,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3346104884
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1F2FCAA3-DB75-5D3C-A2A8-9D9245F38BB0}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_player_watch_attachment_attachmenttwomat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[188254062027462508]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 188254062027462508,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{06D834C6-F1B4-584D-852B-5AC3BFED2DC9}",
+                            "subId": 2918405421
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "characters/mainplayer/main_player_watch_attachment.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentType": 2,
+                    "AttachmentTarget": "Entity_[974221649361]"
+                },
+                "Component_[2395009404990618243]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2395009404990618243
+                },
+                "Component_[413896702210965164]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 413896702210965164
+                },
+                "Component_[5272000141034517969]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5272000141034517969
+                },
+                "Component_[7486218137194923988]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7486218137194923988,
+                    "Parent Entity": "Entity_[974221649361]"
+                },
+                "Component_[7899195581013093349]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7899195581013093349
+                },
+                "Component_[9260055912636620949]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9260055912636620949
+                },
+                "Component_[9488529498269502463]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9488529498269502463
+                }
+            }
+        },
+        "Entity_[957041780177]": {
+            "Id": "Entity_[957041780177]",
+            "Name": "RightShoe",
+            "Components": {
+                "Component_[12880423248917634914]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12880423248917634914
+                },
+                "Component_[13531498171598981669]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13531498171598981669
+                },
+                "Component_[15378413696807991453]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15378413696807991453
+                },
+                "Component_[15652931618856723521]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 15652931618856723521,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{DB784A3D-D838-5A53-A262-7852A5D42761}",
+                            "subId": 1493151819
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "characters/mainplayer/main_player_shoe_right_attachment.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentType": 2,
+                    "AttachmentTarget": "Entity_[974221649361]"
+                },
+                "Component_[16471830703710482531]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16471830703710482531,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1321490956
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{ACAC7448-28CC-5B79-BEDE-458BE1CE7FD1}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_player_rightfoot_attachment_attachmenttwomat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16640814344565619825]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16640814344565619825
+                },
+                "Component_[17376530793028335933]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17376530793028335933
+                },
+                "Component_[3086111660620899933]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3086111660620899933,
+                    "Parent Entity": "Entity_[974221649361]"
+                },
+                "Component_[3608966456617370508]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3608966456617370508
+                },
+                "Component_[544623803094400196]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 544623803094400196
+                },
+                "Component_[5722587516967095370]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5722587516967095370
+                },
+                "Component_[6305064238372846176]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6305064238372846176
+                }
+            }
+        },
+        "Entity_[961336747473]": {
+            "Id": "Entity_[961336747473]",
+            "Name": "RocketPack",
+            "Components": {
+                "Component_[1006983961130742943]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1006983961130742943
+                },
+                "Component_[10304554662429328666]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10304554662429328666
+                },
+                "Component_[10440411174964957506]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10440411174964957506
+                },
+                "Component_[11255591453250523662]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11255591453250523662
+                },
+                "Component_[15142097643255321915]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15142097643255321915
+                },
+                "Component_[15247393098671135321]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 15247393098671135321,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{38DA2D5C-F437-56EC-8E55-E2D129ECA745}",
+                            "subId": 970339982
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "characters/mainplayer/main_player_rocketwings_attachment.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentType": 2,
+                    "AttachmentTarget": "Entity_[974221649361]"
+                },
+                "Component_[2114361476724774191]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2114361476724774191
+                },
+                "Component_[3739405262442002104]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3739405262442002104
+                },
+                "Component_[434213973063975406]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 434213973063975406
+                },
+                "Component_[6005202149464089010]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6005202149464089010,
+                    "Parent Entity": "Entity_[974221649361]"
+                },
+                "Component_[6043373975047085386]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6043373975047085386,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1707789237
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{82B9B2F7-7731-566F-87E1-02135479D744}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_player_rocketwings_attachment_attachmentonemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3982875159
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B50BC402-C215-5EBA-B01D-DE852B90566E}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_player_rocketwings_attachment_attachmentthreemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9099959765513311829]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9099959765513311829
+                }
+            }
+        },
+        "Entity_[965631714769]": {
+            "Id": "Entity_[965631714769]",
+            "Name": "Helment",
+            "Components": {
+                "Component_[1047903105276739575]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1047903105276739575,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2111113661
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{766257E6-5731-5969-9B78-E3959F991997}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_player_helment_attachment_attachmentonemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2367581902
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C8E06681-B7DF-5F10-AB1C-E8A107BEA203}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_player_helment_attachment_attachmentthreemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3164721746
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{424299A9-29CB-529E-8CF3-3BFE9B7F9B82}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_player_helment_attachment_attachmenttwomat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12077615304397891212]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 12077615304397891212,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{5C389448-8546-5C7C-99B7-7F6CFCE8978A}",
+                            "subId": 177601419
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "characters/mainplayer/main_player_helment_attachment.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentType": 2,
+                    "AttachmentTarget": "Entity_[974221649361]"
+                },
+                "Component_[1256851364488733786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1256851364488733786,
+                    "Parent Entity": "Entity_[974221649361]"
+                },
+                "Component_[15180368171231165253]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15180368171231165253
+                },
+                "Component_[15651732410710531687]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15651732410710531687
+                },
+                "Component_[17940297671832469367]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17940297671832469367
+                },
+                "Component_[2509207686327473030]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2509207686327473030
+                },
+                "Component_[4921037107391971363]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4921037107391971363
+                },
+                "Component_[6577534376215850494]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6577534376215850494
+                },
+                "Component_[7068361765838529719]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7068361765838529719
+                },
+                "Component_[9281810528211450534]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9281810528211450534
+                },
+                "Component_[9346380007411787312]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9346380007411787312
+                }
+            }
+        },
+        "Entity_[969926682065]": {
+            "Id": "Entity_[969926682065]",
+            "Name": "LeftShoe",
+            "Components": {
+                "Component_[10794247229756596081]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10794247229756596081
+                },
+                "Component_[15062185735359247604]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15062185735359247604
+                },
+                "Component_[15485610185957923135]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15485610185957923135
+                },
+                "Component_[16593419867150699432]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16593419867150699432
+                },
+                "Component_[1897776461350875288]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1897776461350875288
+                },
+                "Component_[2997603726775156703]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2997603726775156703
+                },
+                "Component_[3008269350352737402]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3008269350352737402
+                },
+                "Component_[4248290992253963565]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4248290992253963565
+                },
+                "Component_[5379514040695824933]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5379514040695824933,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1498164985
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CF63E859-A9D9-590E-9C01-DD81436FF501}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_player_leftfoot_attachment_attachmenttwomat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5490558169967858454]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5490558169967858454,
+                    "Parent Entity": "Entity_[974221649361]"
+                },
+                "Component_[558568204773443731]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 558568204773443731
+                },
+                "Component_[7219369463767435542]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 7219369463767435542,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{15473E3A-BE9E-5EC3-B88F-CE14C2120170}",
+                            "subId": 3420276126
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "characters/mainplayer/main_player_shoe_left_attachment.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentType": 2,
+                    "AttachmentTarget": "Entity_[974221649361]"
+                }
+            }
+        },
+        "Entity_[974221649361]": {
+            "Id": "Entity_[974221649361]",
+            "Name": "MainChar",
+            "Components": {
+                "Component_[11182603351463237730]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11182603351463237730,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[11335172685035454076]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11335172685035454076,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11182603351463237730
+                        },
+                        {
+                            "ComponentId": 9315923736112835907,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 13293428640262810439,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 6524701916032002185,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 2847259870734302145,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 1401073564233113474,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 7133700288698480912,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 14877113385555450889,
+                            "SortIndex": 7
+                        }
+                    ]
+                },
+                "Component_[11855786136413999698]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11855786136413999698
+                },
+                "Component_[12089062224330286268]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12089062224330286268
+                },
+                "Component_[13293428640262810439]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 13293428640262810439,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{6FC89E49-7AF6-53EE-9109-8F3109241996}",
+                            "subId": 644106683
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "characters/mainplayer/main_player.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentTarget": ""
+                },
+                "Component_[1401073564233113474]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 1401073564233113474,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{EB152AB1-72AC-5919-A3FE-68771EC268F4}",
+                            "path": "Assets/ScriptCanvas/MainPlayer.scriptcanvas"
+                        },
+                        "sourceName": "MainPlayer.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{EB152AB1-72AC-5919-A3FE-68771EC268F4}",
+                                "path": "Assets/ScriptCanvas/MainPlayer.scriptcanvas"
+                            }
+                        }
+                    }
+                },
+                "Component_[14877113385555450889]": {
+                    "$type": "EditorCharacterGameplayComponent",
+                    "Id": 14877113385555450889
+                },
+                "Component_[15478001439351679176]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15478001439351679176,
+                    "Child Entity Order": [
+                        "Entity_[957041780177]",
+                        "Entity_[969926682065]",
+                        "Entity_[978516616657]",
+                        "Entity_[952746812881]",
+                        "Entity_[961336747473]",
+                        "Entity_[965631714769]"
+                    ]
+                },
+                "Component_[2642998017812795973]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2642998017812795973
+                },
+                "Component_[2847259870734302145]": {
+                    "$type": "EditorAnimGraphComponent",
+                    "Id": 2847259870734302145,
+                    "AnimGraphAsset": {
+                        "assetId": {
+                            "guid": "{81EFF9C0-8488-5CEA-8666-B06B77596A94}"
+                        },
+                        "assetHint": "assets/animationeditor/mainchar.animgraph"
+                    },
+                    "MotionSetAsset": {
+                        "assetId": {
+                            "guid": "{43996749-EF5C-5F17-A724-52E5FA698324}"
+                        },
+                        "assetHint": "assets/motionsets/mainchar.motionset"
+                    },
+                    "ActiveMotionSetName": "MainChar",
+                    "ParameterDefaults": {
+                        "Parameters": [
+                            {
+                                "$type": "AzFramework::ScriptPropertyNumber",
+                                "id": 254213878,
+                                "name": "Speed"
+                            },
+                            {
+                                "$type": "AzFramework::ScriptPropertyBoolean",
+                                "id": 2813527574,
+                                "name": "Jump"
+                            }
+                        ]
+                    }
+                },
+                "Component_[3293350951684601856]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3293350951684601856
+                },
+                "Component_[3423705614070872997]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3423705614070872997
+                },
+                "Component_[4510871370764941457]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4510871370764941457
+                },
+                "Component_[6524701916032002185]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6524701916032002185,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1416089855
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{339B0B79-FFFF-5CBA-B802-C95D69037C1B}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_player_eyesmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1801865338
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{58332784-2FEE-598E-855E-762C3488726B}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_playersssheadmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3576990668
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A0813BAE-AB2E-5517-AEAF-4032078A42BD}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_playersssbodymat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6639196655710803106]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6639196655710803106
+                },
+                "Component_[7133700288698480912]": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 7133700288698480912,
+                    "Configuration": {
+                        "entityId": "",
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "ColliderTag": "Player",
+                        "ContactOffset": 0.009999999776482582,
+                        "ScaleCoeff": 1.0
+                    },
+                    "ShapeConfig": {
+                        "Capsule": {
+                            "Height": 2.0199999809265137,
+                            "Radius": 0.5
+                        }
+                    }
+                },
+                "Component_[9315923736112835907]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 9315923736112835907,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{576ADA97-7A41-51E1-94D4-4C080B0D9BC7}"
+                            },
+                            "assetHint": "stick.inputbindings"
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[978516616657]": {
+            "Id": "Entity_[978516616657]",
+            "Name": "Chest_Protector",
+            "Components": {
+                "Component_[1241878394942044772]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1241878394942044772,
+                    "Parent Entity": "Entity_[974221649361]"
+                },
+                "Component_[13404046137551821008]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13404046137551821008
+                },
+                "Component_[14526375814694581751]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14526375814694581751
+                },
+                "Component_[15236365925264360564]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15236365925264360564,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3346104884
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{09F5A01B-9E79-540A-B244-8AC133FDFDBD}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_player_chestprotector_attachment_attachmenttwomat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3982875159
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{27F3B5C3-2E62-5C48-A705-49A2F4D3F551}"
+                                            },
+                                            "assetHint": "characters/mainplayer/main_player_chestprotector_attachment_attachmentthreemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[1544565765786508001]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1544565765786508001
+                },
+                "Component_[15567510368591789783]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15567510368591789783
+                },
+                "Component_[2024431267364885971]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2024431267364885971
+                },
+                "Component_[2376698967499925144]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2376698967499925144
+                },
+                "Component_[4999335594505189610]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 4999335594505189610,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{160AC186-747D-5529-99BD-10EB945DBBA5}",
+                            "subId": 4057897931
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "characters/mainplayer/main_player_chestprotector_attachment.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentType": 2,
+                    "AttachmentTarget": "Entity_[974221649361]"
+                },
+                "Component_[5651346665849596217]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5651346665849596217
+                },
+                "Component_[6903316979838272596]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6903316979838272596
+                },
+                "Component_[7451148607264845657]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7451148607264845657
+                }
+            }
+        }
+    }
+}

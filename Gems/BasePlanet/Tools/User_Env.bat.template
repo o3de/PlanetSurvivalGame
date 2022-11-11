@@ -1,0 +1,4 @@
+:: This file allows you to set/override values for Project_Env.bat
+:: copy this file, rename from User_Env.bat.template, to User_Env.bat
+
+set O3DE_DEV=C:\Depot\o3de-engine

@@ -1,0 +1,27 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "SpaceShips/textures/ShipPartsMAT_BaseColor.png",
+        "emissive.color": [
+            0.21666285395622253,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.textureMap": "SpaceShips/textures/ShipPartsMAT_Emissive.png",
+        "metallic.textureMap": "SpaceShips/textures/ShipPartsMAT_Metallic.png",
+        "occlusion.diffuseTextureMap": "SpaceShips/textures/ShipPartsMAT_AO.png",
+        "opacity.factor": 1.0,
+        "roughness.textureMap": "SpaceShips/textures/ShipPartsMAT_Roughness.png",
+        "specularF0.textureMap": "SpaceShips/textures/ShipPartsMAT_SpecularReflectance.png"
+    }
+}

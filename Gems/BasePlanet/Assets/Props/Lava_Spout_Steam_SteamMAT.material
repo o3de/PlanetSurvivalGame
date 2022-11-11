@@ -1,0 +1,21 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Overlay",
+        "clearCoat.roughness": 0.5400000214576721,
+        "emissive.enable": true,
+        "emissive.intensity": 1.4800000190734863,
+        "emissive.textureMap": "textures/GreenSteam_Emissive.png",
+        "general.doubleSided": true,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.factor": 1.0,
+        "opacity.alphaAffectsSpecular": 1.0,
+        "opacity.alphaSource": "Split",
+        "opacity.factor": 1.0,
+        "opacity.mode": "Blended",
+        "opacity.textureMap": "textures/GreenSteam_Opacity.png",
+        "roughness.factor": 0.7099999785423279,
+        "specularF0.factor": 0.0
+    }
+}

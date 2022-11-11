@@ -1,0 +1,16 @@
+{
+    "gem_name": "BasePlanet",
+    "display_name": "Samples:BasePlanet Assets",
+    "origin": "https://github.com/shawstar/BASE_PLANET_3",
+    "license": "Content/Assets: CC-BY-4.0, Code: Apache-2.0 Or MIT",
+    "summary": "An O3DE sample game Gem with sample assets.",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "Content",
+        "Assets",
+        "Samples"
+    ],
+    "icon_path": "preview.png"
+}

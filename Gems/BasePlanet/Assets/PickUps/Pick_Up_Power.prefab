@@ -1,0 +1,381 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Pick_Up_Power",
+        "Components": {
+            "Component_[10406647718090229482]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10406647718090229482,
+                "Child Entity Order": [
+                    "Entity_[6551545320983]"
+                ]
+            },
+            "Component_[14130169513976041572]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 14130169513976041572
+            },
+            "Component_[15052555132881035245]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 15052555132881035245
+            },
+            "Component_[16169671658649141336]": {
+                "$type": "EditorLockComponent",
+                "Id": 16169671658649141336
+            },
+            "Component_[17050104480149475148]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17050104480149475148
+            },
+            "Component_[4178211473700077548]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4178211473700077548
+            },
+            "Component_[5487889826745254223]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5487889826745254223
+            },
+            "Component_[6648734869627483523]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6648734869627483523
+            },
+            "Component_[7865367372908316299]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7865367372908316299,
+                "Parent Entity": ""
+            },
+            "Component_[9902774559696563961]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9902774559696563961
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[6551545320983]": {
+            "Id": "Entity_[6551545320983]",
+            "Name": "Pick_Up_Power",
+            "Components": {
+                "Component_[10458433680721678532]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10458433680721678532
+                },
+                "Component_[11057785363611577704]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11057785363611577704,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{A1DB0732-E70D-57A8-B147-6CBDE76BCFAE}",
+                                    "subId": 273712816
+                                },
+                                "assetHint": "pickups/gem.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[12654805976110548127]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12654805976110548127
+                },
+                "Component_[13294940786144001450]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13294940786144001450,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2087309546
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DD2D896D-21A3-5D02-BF7A-E1A1040C28B7}"
+                                            },
+                                            "assetHint": "pickups/gemgreenmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[1355233024845824889]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1355233024845824889
+                },
+                "Component_[15492379646097139488]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15492379646097139488,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17588518230448410296
+                        },
+                        {
+                            "ComponentId": 9031493117224326634,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11057785363611577704,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 13294940786144001450,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 5834661549768142787,
+                            "SortIndex": 4
+                        }
+                    ]
+                },
+                "Component_[17588518230448410296]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17588518230448410296,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 2.0
+                    }
+                },
+                "Component_[2420093071768007921]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2420093071768007921,
+                    "Child Entity Order": [
+                        "Entity_[6555840288279]"
+                    ]
+                },
+                "Component_[5147412068551195682]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5147412068551195682
+                },
+                "Component_[5834661549768142787]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5834661549768142787,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "ColliderTag": "PowerUP"
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0,
+                        "Sphere": {
+                            "Scale": [
+                                2.0,
+                                2.0,
+                                2.0
+                            ],
+                            "Radius": 0.15000000596046448
+                        }
+                    }
+                },
+                "Component_[7256103390470666656]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7256103390470666656
+                },
+                "Component_[9031493117224326634]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 9031493117224326634,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{47D3E9B1-7AA0-504B-A7D7-3DEF184F4580}",
+                            "path": "PickUps/Gem.scriptcanvas"
+                        },
+                        "sourceName": "Gem.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{47D3E9B1-7AA0-504B-A7D7-3DEF184F4580}",
+                                "path": "PickUps/Gem.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.2
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{53BC2951-E52C-4386-99FD-E04661A1F9DA}"
+                                    },
+                                    "VariableName": "UpAndDownDelay",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 8
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "Vector3",
+                                        "value": [
+                                            0.0,
+                                            0.0,
+                                            0.019999999552965164
+                                        ]
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{991E4036-B4D5-4121-ABEC-A887E4DA525F}"
+                                    },
+                                    "VariableName": "RotationSpeed",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.2
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{D1421203-3D3D-4139-81AF-F519BA1619C4}"
+                                    },
+                                    "VariableName": "UpAndDown",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.2
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{53BC2951-E52C-4386-99FD-E04661A1F9DA}"
+                                    },
+                                    "VariableName": "UpAndDownDelay",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 8
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "Vector3",
+                                        "value": [
+                                            0.0,
+                                            0.0,
+                                            0.019999999552965164
+                                        ]
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{991E4036-B4D5-4121-ABEC-A887E4DA525F}"
+                                    },
+                                    "VariableName": "RotationSpeed",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.01
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{D1421203-3D3D-4139-81AF-F519BA1619C4}"
+                                    },
+                                    "VariableName": "UpAndDown",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9146650467719774997]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9146650467719774997
+                }
+            }
+        },
+        "Entity_[6555840288279]": {
+            "Id": "Entity_[6555840288279]",
+            "Name": "GemLight",
+            "Components": {
+                "Component_[11977104559480634581]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11977104559480634581
+                },
+                "Component_[12890748048355524148]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12890748048355524148,
+                    "Parent Entity": "Entity_[6551545320983]"
+                },
+                "Component_[14540914415092441339]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14540914415092441339
+                },
+                "Component_[15922429415195273711]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15922429415195273711
+                },
+                "Component_[16148909671403217953]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 16148909671403217953,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 6,
+                            "Color": [
+                                0.40198367834091187,
+                                1.0,
+                                0.0
+                            ],
+                            "Intensity": 160.0,
+                            "AttenuationRadius": 35.7918815612793
+                        }
+                    }
+                },
+                "Component_[17135377919534563937]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17135377919534563937
+                },
+                "Component_[17195111802591794697]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17195111802591794697
+                },
+                "Component_[18063816367385414700]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18063816367385414700
+                },
+                "Component_[8570238131290691153]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8570238131290691153
+                },
+                "Component_[9480305869025079141]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9480305869025079141
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.35799190402030945,
+            0.18608379364013672,
+            0.09137099981307983,
+            1.0
+        ],
+        "baseColor.textureMap": "textures/LandTopMAT_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.factor": 0.14000000059604645,
+        "normal.textureMap": "textures/LandTopMAT_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.7300000190734863,
+        "specularF0.factor": 0.0
+    }
+}

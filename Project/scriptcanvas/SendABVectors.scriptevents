@@ -1,0 +1,165 @@
+<ObjectStream version="3">
+	<Class name="ScriptEventsAsset" version="1" type="{CB4D603E-8CB0-4D80-8165-4244F28AF187}">
+		<Class name="ScriptEvent" field="m_definition" version="2" type="{10A08CD3-32C9-4E18-8039-4B8A8157918E}">
+			<Class name="unsigned int" field="m_version" value="2" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+			<Class name="VersionedProperty" field="m_name" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+				<Class name="AZ::Uuid" field="m_id" value="{F76ECA0A-85A7-4151-9D7E-C673038D46F9}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+				<Class name="AZStd::string" field="m_label" value="Name" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+				<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+					<Class name="AZStd::string" field="m_data" value="SendABVectors" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="VersionedProperty" field="m_category" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+				<Class name="AZ::Uuid" field="m_id" value="{D99A8299-B292-438F-9BAC-7094E940F3F4}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+				<Class name="AZStd::string" field="m_label" value="Category" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+				<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+					<Class name="AZStd::string" field="m_data" value="Script Events" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="VersionedProperty" field="m_tooltip" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+				<Class name="AZ::Uuid" field="m_id" value="{EC554819-713C-4443-9B88-103EC46BF84B}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+				<Class name="AZStd::string" field="m_label" value="Tooltip" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+				<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+					<Class name="AZStd::string" field="m_data" value="Send A and B Vectors" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="VersionedProperty" field="m_addressType" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+				<Class name="AZ::Uuid" field="m_id" value="{A1CDA4CE-4B6F-4A2D-A55A-1D2A0CFF8F7E}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+				<Class name="AZStd::string" field="m_label" value="Address Type" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+				<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+					<Class name="AZ::Uuid" field="m_data" value="{C0F1AFAD-5CB3-450E-B0F5-ADB5D46B0E22}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::vector&lt;Method, allocator&gt;" field="m_methods" type="{D9866B79-D11A-58E6-B974-0B45783F53A4}">
+				<Class name="Method" field="element" type="{E034EA83-C798-413D-ACE8-4923C51CF4F7}">
+					<Class name="VersionedProperty" field="m_name" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+						<Class name="AZ::Uuid" field="m_id" value="{566F11A6-B14A-4663-B0F1-E75F495B5541}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+						<Class name="AZStd::string" field="m_label" value="Name" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+						<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+						<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+							<Class name="AZStd::string" field="m_data" value="WorldVectorsPOS" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+					</Class>
+					<Class name="VersionedProperty" field="m_tooltip" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+						<Class name="AZ::Uuid" field="m_id" value="{69BF8096-7E25-4FE5-B9FF-D1FA6329FF18}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+						<Class name="AZStd::string" field="m_label" value="Tooltip" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+						<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+						<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+							<Class name="AZStd::string" field="m_data" value="World Vector Locations" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						</Class>
+					</Class>
+					<Class name="VersionedProperty" field="m_returnType" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+						<Class name="AZ::Uuid" field="m_id" value="{FDEC68E1-3C6B-480A-87A5-44095667346C}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+						<Class name="AZStd::string" field="m_label" value="Return Type" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+						<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+						<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+							<Class name="AZ::Uuid" field="m_data" value="{C0F1AFAD-5CB3-450E-B0F5-ADB5D46B0E22}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+						</Class>
+					</Class>
+					<Class name="AZStd::vector&lt;Parameter, allocator&gt;" field="m_parameters" type="{6ED13EA7-791B-57A8-A4F1-560B5F35B472}">
+						<Class name="Parameter" field="element" type="{0DA4809B-08A6-49DC-9024-F81645D97FAC}">
+							<Class name="VersionedProperty" field="m_name" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+								<Class name="AZ::Uuid" field="m_id" value="{BDAE2F62-0EB2-4527-95E0-36F16B6E8684}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+								<Class name="AZStd::string" field="m_label" value="Name" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+								<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+								<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+									<Class name="AZStd::string" field="m_data" value="StartLocationPOS" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								</Class>
+							</Class>
+							<Class name="VersionedProperty" field="m_tooltip" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+								<Class name="AZ::Uuid" field="m_id" value="{76267EA8-262B-4DEF-A50F-38324751C37E}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+								<Class name="AZStd::string" field="m_label" value="Tooltip" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+								<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+								<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+									<Class name="AZStd::string" field="m_data" value="Start Location POS" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								</Class>
+							</Class>
+							<Class name="VersionedProperty" field="m_type" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+								<Class name="AZ::Uuid" field="m_id" value="{913F649C-B21B-4A89-B8AD-36240829A707}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+								<Class name="AZStd::string" field="m_label" value="Vector3" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+								<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+								<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+									<Class name="AZ::Uuid" field="m_data" value="{8379EB7D-01FA-4538-B64B-A6543B4BE73D}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+								</Class>
+							</Class>
+						</Class>
+						<Class name="Parameter" field="element" type="{0DA4809B-08A6-49DC-9024-F81645D97FAC}">
+							<Class name="VersionedProperty" field="m_name" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+								<Class name="AZ::Uuid" field="m_id" value="{6F244C6B-2988-488C-84AC-8876866EEF04}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+								<Class name="AZStd::string" field="m_label" value="Name" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+								<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+								<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+									<Class name="AZStd::string" field="m_data" value="StopLocationPOS" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								</Class>
+							</Class>
+							<Class name="VersionedProperty" field="m_tooltip" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+								<Class name="AZ::Uuid" field="m_id" value="{1E47496A-7D3D-4CDF-9659-82FAF1E80C7B}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+								<Class name="AZStd::string" field="m_label" value="Tooltip" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+								<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+								<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+									<Class name="AZStd::string" field="m_data" value="Stop Location POS" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								</Class>
+							</Class>
+							<Class name="VersionedProperty" field="m_type" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+								<Class name="AZ::Uuid" field="m_id" value="{913F649C-B21B-4A89-B8AD-36240829A707}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+								<Class name="AZStd::string" field="m_label" value="Vector3" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+								<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+								<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+									<Class name="AZ::Uuid" field="m_data" value="{8379EB7D-01FA-4538-B64B-A6543B4BE73D}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+								</Class>
+							</Class>
+						</Class>
+						<Class name="Parameter" field="element" type="{0DA4809B-08A6-49DC-9024-F81645D97FAC}">
+							<Class name="VersionedProperty" field="m_name" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+								<Class name="AZ::Uuid" field="m_id" value="{33D4D5F6-048C-460E-AB87-2E88A0E670CB}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+								<Class name="AZStd::string" field="m_label" value="Name" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+								<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+								<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+									<Class name="AZStd::string" field="m_data" value="MovePointsAvailable" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								</Class>
+							</Class>
+							<Class name="VersionedProperty" field="m_tooltip" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+								<Class name="AZ::Uuid" field="m_id" value="{834FB014-3837-4A27-8926-A09D9E83EE12}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+								<Class name="AZStd::string" field="m_label" value="Tooltip" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+								<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+								<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+									<Class name="AZStd::string" field="m_data" value="Move Points Available" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								</Class>
+							</Class>
+							<Class name="VersionedProperty" field="m_type" version="4" type="{828CA9C0-32F1-40B3-8018-EE7C3C38192A}">
+								<Class name="AZ::Uuid" field="m_id" value="{9ACD5F10-715A-4F41-93B5-9ABD9E59B947}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+								<Class name="AZStd::string" field="m_label" value="Number" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+								<Class name="unsigned int" field="m_version" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+								<Class name="AZStd::vector&lt;VersionedProperty, allocator&gt;" field="m_versions" type="{326CAAFE-9101-56E2-B869-D770629A6B19}"/>
+								<Class name="AZStd::any" field="m_data" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+									<Class name="AZ::Uuid" field="m_data" value="{110C4B14-11A8-4E9D-8638-5051013A56AC}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+								</Class>
+							</Class>
+						</Class>
+					</Class>
+				</Class>
+			</Class>
+			<Class name="AZStd::string" field="scriptCanvasSerializedData" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+		</Class>
+	</Class>
+</ObjectStream>
+

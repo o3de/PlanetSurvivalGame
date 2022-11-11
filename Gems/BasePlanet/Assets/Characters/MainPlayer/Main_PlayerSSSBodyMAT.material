@@ -1,0 +1,29 @@
+{
+    "materialType": "Materials/Types/EnhancedPBR.materialtype",
+    "materialTypeVersion": 6,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Characters/MainPlayer/textures/BodyMAT_BaseColor.png",
+        "normal.textureMap": "Characters/MainPlayer/textures/BodyMAT_Normal.png",
+        "occlusion.diffuseTextureMap": "Characters/MainPlayer/textures/BodyMAT_AO.png",
+        "roughness.textureMap": "Characters/MainPlayer/textures/BodyMAT_Roughness.png",
+        "specularF0.textureMap": "Characters/MainPlayer/textures/BodyMAT_SpecularReflectance.png",
+        "subsurfaceScattering.enableSubsurfaceScattering": true,
+        "subsurfaceScattering.influenceMap": "Characters/MainPlayer/textures/BodyMAT_Transmissive.png",
+        "subsurfaceScattering.scatterColor": [
+            0.0,
+            1.0,
+            0.07377739995718002,
+            1.0
+        ],
+        "subsurfaceScattering.thickness": 0.10000000149011612,
+        "subsurfaceScattering.thicknessMap": "Characters/MainPlayer/textures/BodyMAT_Thickness.png",
+        "subsurfaceScattering.transmissionMode": "ThickObject",
+        "subsurfaceScattering.transmissionTint": [
+            0.40596628189086914,
+            0.8911573886871338,
+            0.30893415212631226,
+            1.0
+        ]
+    }
+}

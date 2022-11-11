@@ -1,0 +1,180 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Med_Rock_One",
+        "Components": {
+            "Component_[10290989404172390519]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10290989404172390519
+            },
+            "Component_[11735668618491183377]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11735668618491183377
+            },
+            "Component_[1231218290287059402]": {
+                "$type": "EditorLockComponent",
+                "Id": 1231218290287059402
+            },
+            "Component_[13082739602824220937]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13082739602824220937,
+                "Child Entity Order": [
+                    "Entity_[4068837197556]"
+                ]
+            },
+            "Component_[4109110759562588523]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4109110759562588523
+            },
+            "Component_[5918331874141406285]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5918331874141406285
+            },
+            "Component_[7400273159539328009]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7400273159539328009,
+                "Parent Entity": ""
+            },
+            "Component_[7706907809264941537]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7706907809264941537
+            },
+            "Component_[920800252703064331]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 920800252703064331
+            },
+            "Component_[9298477287695045075]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9298477287695045075
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[4068837197556]": {
+            "Id": "Entity_[4068837197556]",
+            "Name": "Med_Rock_One",
+            "Components": {
+                "Component_[13551766466811803649]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13551766466811803649
+                },
+                "Component_[17817962111657918897]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17817962111657918897
+                },
+                "Component_[17901939792080352486]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17901939792080352486
+                },
+                "Component_[18283236231106657694]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18283236231106657694
+                },
+                "Component_[3150528681096403230]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3150528681096403230,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{393921E7-D81F-5D68-9E95-CA2FBA9BB3E8}",
+                                    "subId": 268855808
+                                },
+                                "assetHint": "props/med_rock_one.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5293455310480318496]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5293455310480318496,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6752425115146390663]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6752425115146390663
+                },
+                "Component_[6829856540558459024]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6829856540558459024,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5293455310480318496
+                        },
+                        {
+                            "ComponentId": 3150528681096403230,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8138251872423091292,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 8719148272161508689,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[7808445149826072271]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7808445149826072271
+                },
+                "Component_[8138251872423091292]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8138251872423091292,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2691152884
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{AE677E9D-2E0F-5FB6-ADFF-42235EB287E9}"
+                                            },
+                                            "assetHint": "props/med_rock_one_medrockone.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8719148272161508689]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 8719148272161508689,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            -0.2931194305419922,
+                            0.12222391366958618,
+                            0.4798886775970459
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                2.428880214691162,
+                                1.807279109954834,
+                                0.948699951171875
+                            ]
+                        }
+                    }
+                },
+                "Component_[8911718439806927649]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8911718439806927649
+                }
+            }
+        }
+    }
+}

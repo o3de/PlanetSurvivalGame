@@ -1,0 +1,196 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Coral_Air_Plant",
+        "Components": {
+            "Component_[13230180462750874328]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13230180462750874328
+            },
+            "Component_[15069698361612782495]": {
+                "$type": "EditorLockComponent",
+                "Id": 15069698361612782495
+            },
+            "Component_[15187958217759818726]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 15187958217759818726
+            },
+            "Component_[1553319644308545996]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1553319644308545996,
+                "Child Entity Order": [
+                    "Entity_[2730247721705]"
+                ]
+            },
+            "Component_[17757755692514974127]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17757755692514974127
+            },
+            "Component_[2561135086647432726]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2561135086647432726
+            },
+            "Component_[2662684461835384144]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2662684461835384144,
+                "Parent Entity": ""
+            },
+            "Component_[4718853833899306381]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4718853833899306381
+            },
+            "Component_[9020635963430417140]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9020635963430417140
+            },
+            "Component_[9073488836016584431]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 9073488836016584431
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2730247721705]": {
+            "Id": "Entity_[2730247721705]",
+            "Name": "Coral_Air_Plant",
+            "Components": {
+                "Component_[14190637372043619912]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14190637372043619912
+                },
+                "Component_[14643830568748798364]": {
+                    "$type": "EditorSimpleMotionComponent",
+                    "Id": 14643830568748798364,
+                    "PreviewInEditor": true,
+                    "Configuration": {
+                        "MotionAsset": {
+                            "assetId": {
+                                "guid": "{432A7F0B-5D26-5C0E-A75F-AF7762FD9278}",
+                                "subId": 428394783
+                            },
+                            "assetHint": "props/coral_air_plant.motion"
+                        },
+                        "Loop": true
+                    }
+                },
+                "Component_[15032399921270360037]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15032399921270360037
+                },
+                "Component_[15739879264987037275]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 15739879264987037275,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            -0.05077767372131348,
+                            0.0,
+                            0.8811087608337402
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                1.603745460510254,
+                                1.4027070999145508,
+                                1.7504234313964844
+                            ]
+                        }
+                    }
+                },
+                "Component_[1702404017217684356]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1702404017217684356
+                },
+                "Component_[18308966381344724823]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18308966381344724823
+                },
+                "Component_[2762761880533993259]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2762761880533993259,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7739249974576042811
+                        },
+                        {
+                            "ComponentId": 6748356569990693979,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8006834911802853294,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 14643830568748798364,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[6748356569990693979]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 6748356569990693979,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{432A7F0B-5D26-5C0E-A75F-AF7762FD9278}",
+                            "subId": 3404493101
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "props/coral_air_plant.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentTarget": ""
+                },
+                "Component_[7739249974576042811]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7739249974576042811,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[7848608881528276346]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7848608881528276346
+                },
+                "Component_[8006834911802853294]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8006834911802853294,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 960007755
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8B26BA27-96B3-511B-8499-E48B1E702F51}"
+                                            },
+                                            "assetHint": "props/coral_air_plant_coralairplantmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8362922669097353511]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8362922669097353511
+                },
+                "Component_[8818746604377304304]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8818746604377304304
+                }
+            }
+        }
+    }
+}

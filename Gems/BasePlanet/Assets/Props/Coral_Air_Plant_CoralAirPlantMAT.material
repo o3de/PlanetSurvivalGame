@@ -1,0 +1,30 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.40222781896591187,
+            0.35997557640075684,
+            0.6558022499084473,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "LinearLight",
+        "baseColor.textureMap": "textures/CoralAirPlantMAT_BaseColor.png",
+        "emissive.color": [
+            0.42003509402275085,
+            0.2401159703731537,
+            0.5855497121810913,
+            1.0
+        ],
+        "emissive.intensity": 0.3799999952316284,
+        "general.applySpecularAA": true,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.factor": 0.49000000953674316,
+        "normal.factor": 0.9800000190734863,
+        "normal.textureMap": "textures/CoralAirPlantMAT_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.6700000166893005,
+        "roughness.lowerBound": 0.8500000238418579,
+        "specularF0.factor": 0.46000000834465027
+    }
+}

@@ -1,0 +1,35 @@
+
+set(ENABLED_GEMS
+    Planet_Survival_Game
+    Atom
+    AudioSystem
+    AWSCore
+    CameraFramework
+    DebugDraw
+    EditorPythonBindings
+    EMotionFX
+    GameState
+    ImGui
+    LandscapeCanvas
+    LyShine
+    PhysX
+    PrimitiveAssets
+    PrefabBuilder
+    SaveData
+    ScriptCanvasPhysics
+    ScriptEvents
+    StartingPointInput
+    TextureAtlas
+    WhiteBox
+    BasePlanet
+    Camera
+    StartingPointCamera
+    LyShineExamples
+    MessagePopup
+    Stars
+    DiffuseProbeGrid
+    Vegetation
+    NvCloth
+    RecastNavigation
+    ScriptCanvasDeveloper
+)

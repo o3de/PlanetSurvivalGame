@@ -1,0 +1,26 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.48603036999702454,
+            0.6437781453132629,
+            0.43910887837409973,
+            1.0
+        ],
+        "baseColor.factor": 0.4000000059604645,
+        "baseColor.textureMap": "textures/LavaMAT_BaseColor.png",
+        "emissive.color": [
+            1.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.intensity": 6.760000228881836,
+        "emissive.textureMap": "textures/LavaMAT_Emissive.png",
+        "normal.textureMap": "textures/LavaMAT_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.textureMap": "textures/LavaMAT_Roughness.png"
+    }
+}

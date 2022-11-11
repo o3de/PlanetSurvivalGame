@@ -1,0 +1,27 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "textures/BuggyBodyMAT_BaseColor.png",
+        "clearCoat.enable": true,
+        "clearCoat.factor": 0.3199999928474426,
+        "clearCoat.roughness": 0.15000000596046448,
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "general.applySpecularAA": true,
+        "general.forwardPassIBLSpecular": true,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.factor": 0.27000001072883606,
+        "normal.textureMap": "textures/BuggyBodyMAT_Normal.png",
+        "occlusion.diffuseFactor": 2.0,
+        "occlusion.diffuseTextureMap": "textures/BuggyBodyMAT_AO.png",
+        "opacity.factor": 1.0,
+        "roughness.textureMap": "textures/BuggyBodyMAT_Roughness.png",
+        "specularF0.textureMap": "textures/BuggyBodyMAT_SpecularReflectance.png"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/EnhancedPBR.materialtype",
+    "materialTypeVersion": 6,
+    "propertyValues": {
+        "anisotropy.anisotropyAngle": 1.0,
+        "anisotropy.enableAnisotropy": true,
+        "anisotropy.factor": 0.9309999942779541,
+        "baseColor.color": [
+            0.06916909664869308,
+            0.4149690866470337,
+            0.0,
+            1.0
+        ],
+        "clearCoat.enable": true,
+        "clearCoat.normalMap": "textures/GemMAT_Normal.png",
+        "clearCoat.normalStrength": 2.0,
+        "clearCoat.roughness": 0.28999999165534973,
+        "emissive.color": [
+            0.02365148440003395,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.intensity": 3.4600000381469727,
+        "general.applySpecularAA": true,
+        "general.doubleSided": true,
+        "general.forwardPassIBLSpecular": true,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "normal.factor": 1.100000023841858,
+        "normal.textureMap": "textures/GemMAT_Normal.png",
+        "occlusion.diffuseTextureMap": "textures/GemMAT_AO.png",
+        "opacity.alphaAffectsSpecular": 0.009999999776482582,
+        "opacity.alphaSource": "None",
+        "opacity.factor": 0.25999999046325684,
+        "opacity.mode": "TintedTransparent",
+        "roughness.factor": 0.5400000214576721,
+        "specularF0.enableMultiScatterCompensation": true,
+        "specularF0.factor": 0.10000000149011612,
+        "subsurfaceScattering.distanceAttenuation": 0.4399999976158142,
+        "subsurfaceScattering.enableSubsurfaceScattering": true,
+        "subsurfaceScattering.influenceMap": "textures/GemMAT_Transmissive.png",
+        "subsurfaceScattering.quality": 0.29600000381469727,
+        "subsurfaceScattering.scatterColor": [
+            0.08332949876785278,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "subsurfaceScattering.scatterDistance": 1.2000000476837158,
+        "subsurfaceScattering.shrinkFactor": 0.00800000037997961,
+        "subsurfaceScattering.thickness": 0.23999999463558197,
+        "subsurfaceScattering.thicknessMap": "textures/GemMAT_Thickness.png",
+        "subsurfaceScattering.transmissionAttenuation": 5.0,
+        "subsurfaceScattering.transmissionDistortion": 0.5400000214576721,
+        "subsurfaceScattering.transmissionMode": "ThickObject",
+        "subsurfaceScattering.transmissionNdLBias": -0.5799999833106995,
+        "subsurfaceScattering.transmissionPower": 20.0,
+        "subsurfaceScattering.transmissionScale": 1.25,
+        "subsurfaceScattering.transmissionTint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    }
+}

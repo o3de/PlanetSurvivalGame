@@ -1,0 +1,388 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Gem",
+        "Components": {
+            "Component_[10307194189716521985]": {
+                "$type": "EditorLockComponent",
+                "Id": 10307194189716521985
+            },
+            "Component_[1277311024405767786]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1277311024405767786,
+                "Parent Entity": ""
+            },
+            "Component_[1337480352582872265]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 1337480352582872265
+            },
+            "Component_[14409333348344207076]": {
+                "$type": "SelectionComponent",
+                "Id": 14409333348344207076
+            },
+            "Component_[14435506774525712807]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 14435506774525712807
+            },
+            "Component_[1609492908671401994]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1609492908671401994
+            },
+            "Component_[16824986455855392391]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16824986455855392391
+            },
+            "Component_[17859216153292303258]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17859216153292303258,
+                "Child Entity Order": [
+                    "Entity_[61275253273885]",
+                    "Entity_[63212283524381]"
+                ]
+            },
+            "Component_[3358960649927261733]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 3358960649927261733
+            },
+            "Component_[5472716568463115714]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5472716568463115714
+            },
+            "Component_[7885290045080140660]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7885290045080140660
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[61275253273885]": {
+            "Id": "Entity_[61275253273885]",
+            "Name": "Gem",
+            "Components": {
+                "Component_[10295074226363744058]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 10295074226363744058,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{995D01D0-010E-5B7E-A6C4-C0E05E257C47}",
+                            "path": "Assets/Gems/Gem.scriptcanvas"
+                        },
+                        "sourceName": "Gem.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{995D01D0-010E-5B7E-A6C4-C0E05E257C47}",
+                                "path": "Assets/Gems/Gem.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.2
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{53BC2951-E52C-4386-99FD-E04661A1F9DA}"
+                                    },
+                                    "VariableName": "UpAndDownDelay",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 8
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "Vector3",
+                                        "value": [
+                                            0.0,
+                                            0.0,
+                                            0.019999999552965164
+                                        ]
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{991E4036-B4D5-4121-ABEC-A887E4DA525F}"
+                                    },
+                                    "VariableName": "RotationSpeed",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.2
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{D1421203-3D3D-4139-81AF-F519BA1619C4}"
+                                    },
+                                    "VariableName": "UpAndDown",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.4
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{53BC2951-E52C-4386-99FD-E04661A1F9DA}"
+                                    },
+                                    "VariableName": "UpAndDownDelay",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 8
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "Vector3",
+                                        "value": [
+                                            0.0,
+                                            0.0,
+                                            0.019999999552965164
+                                        ]
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{991E4036-B4D5-4121-ABEC-A887E4DA525F}"
+                                    },
+                                    "VariableName": "RotationSpeed",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.003
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{D1421203-3D3D-4139-81AF-F519BA1619C4}"
+                                    },
+                                    "VariableName": "UpAndDown",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[10764333226398071306]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10764333226398071306
+                },
+                "Component_[11570210216039784556]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11570210216039784556
+                },
+                "Component_[13882027931495789401]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13882027931495789401
+                },
+                "Component_[15799624242021280522]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15799624242021280522,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[16555935333600387529]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16555935333600387529,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15799624242021280522
+                        },
+                        {
+                            "ComponentId": 10295074226363744058,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4239633033678311038,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 168106555147415420,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 17046402151512623417,
+                            "SortIndex": 4
+                        }
+                    ]
+                },
+                "Component_[168106555147415420]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 168106555147415420,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2087309546
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{93F6F9F5-B5F5-5854-AD9C-33F9E99193F2}"
+                                            },
+                                            "assetHint": "assets/gems/gemmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17046402151512623417]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 17046402151512623417,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "ColliderTag": "Gem",
+                        "ContactOffset": 0.009999999776482582
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0,
+                        "Sphere": {
+                            "Radius": 0.1764456033706665
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[380983002164929773]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 380983002164929773
+                },
+                "Component_[4197484385270794550]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4197484385270794550,
+                    "VisibilityFlag": false
+                },
+                "Component_[4201856979183305159]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4201856979183305159
+                },
+                "Component_[4239633033678311038]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4239633033678311038,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{26D15C17-D394-521D-AF79-1AC1953118D5}",
+                                    "subId": 273712816
+                                },
+                                "assetHint": "assets/gems/gem.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[6476705543652318405]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6476705543652318405
+                },
+                "Component_[9920877862074327022]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9920877862074327022
+                }
+            }
+        },
+        "Entity_[63212283524381]": {
+            "Id": "Entity_[63212283524381]",
+            "Name": "GemLight",
+            "Components": {
+                "Component_[11977104559480634581]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11977104559480634581
+                },
+                "Component_[12890748048355524148]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12890748048355524148,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[14540914415092441339]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14540914415092441339
+                },
+                "Component_[15922429415195273711]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15922429415195273711
+                },
+                "Component_[16148909671403217953]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 16148909671403217953,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 6,
+                            "Color": [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Intensity": 50.0,
+                            "AttenuationRadius": 10.310188293457031
+                        }
+                    }
+                },
+                "Component_[17135377919534563937]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17135377919534563937
+                },
+                "Component_[17195111802591794697]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17195111802591794697,
+                    "VisibilityFlag": false
+                },
+                "Component_[18063816367385414700]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18063816367385414700
+                },
+                "Component_[2344322974889594480]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2344322974889594480
+                },
+                "Component_[8570238131290691153]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8570238131290691153
+                },
+                "Component_[9480305869025079141]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9480305869025079141
+                }
+            }
+        }
+    }
+}
