@@ -27,6 +27,9 @@ https://user-images.githubusercontent.com/87207603/201387109-4a65bdb9-7f70-43f3-
 https://user-images.githubusercontent.com/87207603/201387317-6cfdab7f-df73-40d4-98ed-80b477a3d8bb.mp4
 
 
+## Build Levels Dynamically
+Build dynamic levels with O3DE Vegetation System
+https://user-images.githubusercontent.com/87207603/201395614-0cf91fd3-a144-44f2-90f2-0d5e771826d2.mp4
 
 ## Game Levels
 
@@ -50,17 +53,19 @@ The project supports the following platforms:
 
 ## Build Steps
 
-1. Clone the BASE PLANET 3 game project from the following repo:
-   1. git clone https://github.com/shawstar/BASE_PLANET_3/
+1. Clone the PlanetSurvivalGame game project from the following repo:
+   1. git clone https://github.com/o3de/PlanetSurvivalGame
 2. Within the Project manager locate and click on the **New Project** button. Then from the drop down menu select the **Open Existing Project** option.
-3. Once Windows Explorer opens, navigate to and select the **NewspaperDeliveryGame** folder. Once selected click on the **Select Folder** button.
-4. This will load the **BASE PLANET 3** project into the **Project Manager**.
-5. In order to build the project, locate and click on the **Build Project** button, located on the **BASE PLANET 3** icon.
+3. Once Windows Explorer opens, navigate to and select the **Planet_Survival_Game** folder. Once selected click on the **Select Folder** button.
+4. This will load the **Planet)Survival)Game** project into the **Project Manager**.
+![image](https://user-images.githubusercontent.com/87207603/201396468-0a13c0f8-8028-4121-bc4b-f4a36cf6c780.png)
+6. In order to build the project, locate and click on the **Build Project** button, located on the **Planet_Survival_Game** icon.
+
 
 ## Launching the Project
 
 1. Once the project has been built sucessfully, the **Build Project** button will disappear and an **Open Editor** button should be the only option you can select.
-2. Click on the **Open Editor** button this will open the **BASE PLANET 3** project.
+2. Click on the **Open Editor** button this will open the **Planet_Survival_Game** project.
 
 ## Opening the Gameplay Level
 
@@ -202,4 +207,4 @@ https://github.com/recastnavigation/recastnavigation/blob/master/License.txt
 
 https://github.com/o3de/o3de/tree/development/Gems/AtomLyIntegration/TechnicalArt/DccScriptingInterface/Tools/DCC/Blender/AddOns/SceneExporter
 
-![Base_Planet_3_Ship](https://user-images.githubusercontent.com/87207603/199314314-a39580f8-8201-4cd5-a638-59dcce6baf2f.gif)
+
