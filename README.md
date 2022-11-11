@@ -63,7 +63,7 @@ The project supports the following platforms:
    1. git clone https://github.com/o3de/PlanetSurvivalGame
 2. Within the Project manager locate and click on the **New Project** button. Then from the drop down menu select the **Open Existing Project** option.
 3. Once Windows Explorer opens, navigate to and select the **Planet_Survival_Game** folder. Once selected click on the **Select Folder** button.
-4. This will load the **Planet)Survival)Game** project into the **Project Manager**.
+4. This will load the **Planet_Survival_Game** project into the **Project Manager**.
 ![image](https://user-images.githubusercontent.com/87207603/201396468-0a13c0f8-8028-4121-bc4b-f4a36cf6c780.png)
 6. In order to build the project, locate and click on the **Build Project** button, located on the **Planet_Survival_Game** icon.
 
