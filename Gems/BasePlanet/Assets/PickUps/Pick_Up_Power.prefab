@@ -178,6 +178,10 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 7256103390470666656
                 },
+                "Component_[7294088404429300502]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 7294088404429300502
+                },
                 "Component_[9031493117224326634]": {
                     "$type": "EditorScriptCanvasComponent",
                     "Id": 9031493117224326634,

@@ -54,6 +54,10 @@
             "Id": "Entity_[3854088832756]",
             "Name": "Small_Rock_One",
             "Components": {
+                "Component_[11322835762862219446]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11322835762862219446
+                },
                 "Component_[13551766466811803649]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 13551766466811803649

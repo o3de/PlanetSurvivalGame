@@ -105,6 +105,10 @@
                         }
                     }
                 },
+                "Component_[15825715460789613195]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 15825715460789613195
+                },
                 "Component_[1702404017217684356]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 1702404017217684356
@@ -145,9 +149,6 @@
                         "loadBehavior": "QueueLoad",
                         "assetHint": "props/coral_air_plant.actor"
                     },
-                    "MaterialPerLOD": [
-                        {}
-                    ],
                     "AttachmentTarget": ""
                 },
                 "Component_[7739249974576042811]": {
