@@ -124,6 +124,51 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 10663792775745862861
                 },
+                "Component_[13211924182011325725]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 9335031146978547202,
+                    "ColliderConfiguration": {
+                        "CollisionLayer": {
+                            "Index": 2
+                        },
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "MainShipMAT"
+                                },
+                                {
+                                    "Name": "ShipPartsMAT"
+                                }
+                            ]
+                        },
+                        "ColliderTag": "Ship"
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{F90F6215-CA23-5506-89C3-4495539484FB}",
+                                    "subId": 2884240345
+                                },
+                                "assetHint": "spaceships/mainplayerlandingship.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{F90F6215-CA23-5506-89C3-4495539484FB}",
+                                        "subId": 2884240345
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "spaceships/mainplayerlandingship.pxmesh"
+                                },
+                                "UseMaterialsFromAsset": false
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[13486720338851256531]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 13486720338851256531
@@ -183,54 +228,13 @@
                         "Entity_[52518376258791]"
                     ]
                 },
+                "Component_[6225939989508102459]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 6225939989508102459
+                },
                 "Component_[7980187145222437072]": {
                     "$type": "EditorLockComponent",
                     "Id": 7980187145222437072
-                },
-                "Component_[9335031146978547202]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 9335031146978547202,
-                    "ColliderConfiguration": {
-                        "CollisionLayer": {
-                            "Index": 2
-                        },
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "MainShipMAT"
-                                },
-                                {
-                                    "Name": "ShipPartsMAT"
-                                }
-                            ]
-                        },
-                        "ColliderTag": "Ship"
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{F90F6215-CA23-5506-89C3-4495539484FB}",
-                                    "subId": 2884240345
-                                },
-                                "assetHint": "spaceships/mainplayerlandingship.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{F90F6215-CA23-5506-89C3-4495539484FB}",
-                                        "subId": 2884240345
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "spaceships/mainplayerlandingship.pxmesh"
-                                },
-                                "UseMaterialsFromAsset": false
-                            }
-                        }
-                    },
-                    "DebugDrawSettings": {
-                        "LocallyEnabled": false
-                    }
                 },
                 "Component_[9626976516920809142]": {
                     "$type": "EditorVisibilityComponent",
@@ -925,6 +929,10 @@
                             ]
                         }
                     }
+                },
+                "Component_[13326249254225138850]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13326249254225138850
                 },
                 "Component_[13575659593392057369]": {
                     "$type": "EditorLockComponent",
@@ -2170,6 +2178,10 @@
                         }
                     }
                 },
+                "Component_[11504335314365086147]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11504335314365086147
+                },
                 "Component_[12654805976110548127]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 12654805976110548127
@@ -3066,6 +3078,10 @@
                     "$type": "EditorInspectorComponent",
                     "Id": 1641785984053544956
                 },
+                "Component_[16841048059455175406]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 16841048059455175406
+                },
                 "Component_[17237976107571838644]": {
                     "$type": "EditorColliderComponent",
                     "Id": 17237976107571838644,
@@ -3907,9 +3923,6 @@
                         "loadBehavior": "QueueLoad",
                         "assetHint": "characters/mainplayer/main_player_shoe_left_attachment.actor"
                     },
-                    "MaterialPerLOD": [
-                        {}
-                    ],
                     "AttachmentType": 2,
                     "AttachmentTarget": "Entity_[88967228199909]"
                 }
@@ -3991,9 +4004,6 @@
                         "loadBehavior": "QueueLoad",
                         "assetHint": "characters/mainplayer/main_player_chestprotector_attachment.actor"
                     },
-                    "MaterialPerLOD": [
-                        {}
-                    ],
                     "AttachmentType": 2,
                     "AttachmentTarget": "Entity_[88967228199909]"
                 },
@@ -4034,9 +4044,6 @@
                         "loadBehavior": "QueueLoad",
                         "assetHint": "characters/mainplayer/main_player_shoe_right_attachment.actor"
                     },
-                    "MaterialPerLOD": [
-                        {}
-                    ],
                     "AttachmentType": 2,
                     "AttachmentTarget": "Entity_[88967228199909]"
                 },
@@ -4230,9 +4237,6 @@
                         "loadBehavior": "QueueLoad",
                         "assetHint": "characters/mainplayer/main_player.actor"
                     },
-                    "MaterialPerLOD": [
-                        {}
-                    ],
                     "AttachmentTarget": ""
                 },
                 "Component_[14877113385555450889]": {
@@ -4478,9 +4482,6 @@
                         "loadBehavior": "QueueLoad",
                         "assetHint": "characters/mainplayer/main_player_watch_attachment.actor"
                     },
-                    "MaterialPerLOD": [
-                        {}
-                    ],
                     "AttachmentType": 2,
                     "AttachmentTarget": "Entity_[88967228199909]"
                 },
@@ -4546,9 +4547,6 @@
                         "loadBehavior": "QueueLoad",
                         "assetHint": "characters/mainplayer/main_player_rocketwings_attachment.actor"
                     },
-                    "MaterialPerLOD": [
-                        {}
-                    ],
                     "AttachmentType": 2,
                     "AttachmentTarget": "Entity_[88967228199909]"
                 },
@@ -4675,9 +4673,6 @@
                         "loadBehavior": "QueueLoad",
                         "assetHint": "characters/mainplayer/main_player_helment_attachment.actor"
                     },
-                    "MaterialPerLOD": [
-                        {}
-                    ],
                     "AttachmentType": 2,
                     "AttachmentTarget": "Entity_[88967228199909]"
                 },
@@ -4770,32 +4765,6 @@
                 "Component_[10491048867960330155]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 10491048867960330155
-                },
-                "Component_[10868660521230225483]": {
-                    "$type": "EditorCharacterControllerComponent",
-                    "Id": 10868660521230225483,
-                    "Configuration": {
-                        "entityId": "",
-                        "CollisionLayer": {
-                            "Index": 3
-                        },
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "Entire object"
-                                }
-                            ]
-                        },
-                        "ColliderTag": "Buggy",
-                        "ContactOffset": 0.009999999776482582,
-                        "ScaleCoeff": 1.0
-                    },
-                    "ShapeConfig": {
-                        "Capsule": {
-                            "Height": 2.0199999809265137,
-                            "Radius": 0.5
-                        }
-                    }
                 },
                 "Component_[14208068500515114237]": {
                     "$type": "EditorDetourNavigationComponent",
@@ -4998,14 +4967,36 @@
                         "loadBehavior": "QueueLoad",
                         "assetHint": "characters/buggy/buggyactor.actor"
                     },
-                    "MaterialPerLOD": [
-                        {}
-                    ],
                     "AttachmentTarget": ""
                 },
                 "Component_[7576156279467917687]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 7576156279467917687
+                },
+                "Component_[7817048981013174589]": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 7817048981013174589,
+                    "Configuration": {
+                        "entityId": "",
+                        "CollisionLayer": {
+                            "Index": 3
+                        },
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "ColliderTag": "Buggy",
+                        "ContactOffset": 0.009999999776482582
+                    },
+                    "ShapeConfig": {
+                        "Capsule": {
+                            "Height": 2.0199999809265137,
+                            "Radius": 0.5
+                        }
+                    }
                 },
                 "Component_[8831432650552942432]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
