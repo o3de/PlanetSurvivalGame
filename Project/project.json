@@ -12,7 +12,7 @@
         "Planet_Survival_Game"
     ],
     "icon_path": "preview.png",
-    "engine": "o3de-sdk",
+    "engine": "o3de",
     "external_subdirectories": [
         "Gem",
         "../Gems/BasePlanet"
@@ -20,5 +20,6 @@
     "restricted": "Planet_Survival_Game",
     "gem_names": [
         "BasePlanet"
-    ]
+    ],
+    "engine_version": "2.2.2"
 }

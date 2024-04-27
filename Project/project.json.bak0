@@ -1,0 +1,24 @@
+{
+    "project_name": "Planet_Survival_Game",
+    "project_id": "{EEB91659-9D39-41AF-8BCD-A0398B3CDFB6}",
+    "origin": "The primary repo for Planet_Survival_Game goes here: i.e. http://www.mydomain.com",
+    "license": "What license Planet_Survival_Game uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "Planet_Survival_Game",
+    "summary": "A short description of Planet_Survival_Game.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Planet_Survival_Game"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de-sdk",
+    "external_subdirectories": [
+        "Gem",
+        "../Gems/BasePlanet"
+    ],
+    "restricted": "Planet_Survival_Game",
+    "gem_names": [
+        "BasePlanet"
+    ]
+}
