@@ -150,7 +150,7 @@
                                     "guid": "{F90F6215-CA23-5506-89C3-4495539484FB}",
                                     "subId": 2884240345
                                 },
-                                "assetHint": "spaceships/mainplayerlandingship.pxmesh"
+                                "assetHint": "spaceships/mainplayerlandingship.fbx.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
@@ -159,7 +159,7 @@
                                         "subId": 2884240345
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "spaceships/mainplayerlandingship.pxmesh"
+                                    "assetHint": "spaceships/mainplayerlandingship.fbx.pxmesh"
                                 },
                                 "UseMaterialsFromAsset": false
                             }
@@ -212,7 +212,7 @@
                                     "guid": "{F90F6215-CA23-5506-89C3-4495539484FB}",
                                     "subId": 275605049
                                 },
-                                "assetHint": "spaceships/mainplayerlandingship.azmodel"
+                                "assetHint": "spaceships/mainplayerlandingship.fbx.azmodel"
                             }
                         }
                     }
@@ -302,8 +302,7 @@
                     "Id": 16880285896855930892,
                     "Controller": {
                         "Configuration": {
-                            "Field of View": 15.0,
-                            "EditorEntityId": 12658108405792767668
+                            "Field of View": 15.0
                         }
                     }
                 },
@@ -768,8 +767,7 @@
                     "Id": 16880285896855930892,
                     "Controller": {
                         "Configuration": {
-                            "Field of View": 15.0,
-                            "EditorEntityId": 15780345423945723115
+                            "Field of View": 15.0
                         }
                     }
                 },
@@ -833,8 +831,7 @@
                     "Id": 16880285896855930892,
                     "Controller": {
                         "Configuration": {
-                            "Field of View": 15.0,
-                            "EditorEntityId": 16131105122374429955
+                            "Field of View": 15.0
                         }
                     }
                 },
@@ -1820,8 +1817,7 @@
                     "Id": 16880285896855930892,
                     "Controller": {
                         "Configuration": {
-                            "Field of View": 15.0,
-                            "EditorEntityId": 9226876681054249903
+                            "Field of View": 15.0
                         }
                     }
                 },
