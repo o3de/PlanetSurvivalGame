@@ -1762,7 +1762,7 @@
                     "m_template": {
                         "$type": "UiCanvasAssetRefComponent",
                         "CanvasAssetRef": {
-                            "AssetPath": "mainui_nav.uicanvas"
+                            "AssetPath": "Assets/UICanvas/MainUI_Nav.uicanvas"
                         },
                         "IsAutoLoad": true
                     }

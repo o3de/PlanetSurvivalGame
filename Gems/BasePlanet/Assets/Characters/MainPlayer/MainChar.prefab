@@ -761,9 +761,9 @@
                         "$type": "InputConfigurationComponent",
                         "Input Event Bindings": {
                             "assetId": {
-                                "guid": "{576ADA97-7A41-51E1-94D4-4C080B0D9BC7}"
+                                "guid": "{876A576F-EF02-5042-A845-E9A50895DB76}"
                             },
-                            "assetHint": "stick.inputbindings"
+                            "assetHint": "Assets/Stick.inputbindings"
                         }
                     }
                 }
