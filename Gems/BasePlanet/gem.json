@@ -6,6 +6,7 @@
     "license_url": "",
     "origin": "o3de",
     "origin_url": "https://github.com/o3de/PlanetSurvivalGame",
+    "type": "Asset",
     "summary": "An O3DE sample game Gem with sample assets.",
     "canonical_tags": [
         "Gem"
