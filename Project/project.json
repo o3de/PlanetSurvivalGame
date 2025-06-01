@@ -1,25 +1,56 @@
 {
-    "project_name": "Planet_Survival_Game",
-    "project_id": "{EEB91659-9D39-41AF-8BCD-A0398B3CDFB6}",
-    "origin": "The primary repo for Planet_Survival_Game goes here: i.e. http://www.mydomain.com",
-    "license": "What license Planet_Survival_Game uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
-    "display_name": "Planet_Survival_Game",
-    "summary": "A short description of Planet_Survival_Game.",
+    "project_name": "PlanetSurvivalGame",
+    "version": "1.0.0",
+    "project_id": "{E2634FE2-9182-495D-8640-C1B006734B27}",
+    "origin": "The primary repo for PlanetSurvivalGame goes here: i.e. http://www.mydomain.com",
+    "license": "What license PlanetSurvivalGame uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "PlanetSurvivalGame",
+    "summary": "A short description of PlanetSurvivalGame.",
+    "script_only": true,
     "canonical_tags": [
         "Project"
     ],
     "user_tags": [
-        "Planet_Survival_Game"
+        "PlanetSurvivalGame"
     ],
     "icon_path": "preview.png",
     "engine": "o3de",
+    "restricted": "PlanetSurvivalGame",
+    "gem_names": [
+        "Atom",
+        "AudioSystem",
+        "BasePlanet",
+        "Camera",
+        "CameraFramework",
+        "Compression",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EMotionFX",
+        "EditorPythonBindings",
+        "GameState",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "LyShineExamples",
+        "MessagePopup",
+        "NvCloth",
+        "PhysX",
+        "PrefabBuilder",
+        "PrimitiveAssets",
+        "RecastNavigation",
+        "RemoteTools",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "Stars",
+        "StartingPointCamera",
+        "StartingPointInput",
+        "TextureAtlas",
+        "Vegetation",
+        "WhiteBox"
+    ],
     "external_subdirectories": [
-        "Gem",
         "../Gems/BasePlanet"
     ],
-    "restricted": "Planet_Survival_Game",
-    "gem_names": [
-        "BasePlanet"
-    ],
-    "engine_version": "2.2.2"
+    "engine_version": "4.2.0"
 }

@@ -1,8 +1,11 @@
 {
     "gem_name": "BasePlanet",
+    "version": "1.0.0",
     "display_name": "Samples:BasePlanet Assets",
-    "origin": "https://github.com/shawstar/BASE_PLANET_3",
     "license": "Content/Assets: CC-BY-4.0, Code: Apache-2.0 Or MIT",
+    "license_url": "",
+    "origin": "o3de",
+    "origin_url": "https://github.com/o3de/PlanetSurvivalGame",
     "summary": "An O3DE sample game Gem with sample assets.",
     "canonical_tags": [
         "Gem"
@@ -12,5 +15,18 @@
         "Assets",
         "Samples"
     ],
-    "icon_path": "preview.png"
+    "platforms": [
+        "iOS",
+        "Windows",
+        "Android",
+        "Linux"
+    ],
+    "icon_path": "preview.png",
+    "requirements": "",
+    "documentation_url": "",
+    "dependencies": [],
+    "repo_uri": "",
+    "compatible_engines": [],
+    "engine_api_dependencies": [],
+    "restricted": "BasePlanet"
 }

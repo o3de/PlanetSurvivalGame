@@ -2,11 +2,15 @@
     "Amazon": {
         "AssetProcessor": {
             "Settings": {
-                // ------------------------------------------------------------------------------
-                // Sample Gems, Block source folders
-                // ------------------------------------------------------------------------------
-                "Exclude Work In Progress Folders": {
-                    "pattern": ".*\\\\/.[Ss]rc\\\\/.*"
+                "ScanFolder BasePlanet/Assets": {
+                    "watch": "@GEMROOT:BasePlanet@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder BasePlanet/Registry": {
+                    "watch": "@GEMROOT:BasePlanet@/Registry",
+                    "recursive": 1,
+                    "order": 102
                 }
             }
         }

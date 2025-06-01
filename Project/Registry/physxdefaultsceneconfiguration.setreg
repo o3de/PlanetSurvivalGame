@@ -2,9 +2,7 @@
     "Amazon": {
         "Gems": {
             "PhysX": {
-                "DefaultSceneConfiguration": {
-                    "EnableCcd": true
-                }
+                "DefaultSceneConfiguration": {}
             }
         }
     }
