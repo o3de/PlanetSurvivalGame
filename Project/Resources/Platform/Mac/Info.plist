@@ -5,11 +5,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<false/>
 	<key>CFBundleDisplayName</key>
-	<string>BASE_PLANET_3</string>
+	<string>PlanetSurvivalGame</string>
 	<key>CFBundleExecutable</key>
-	<string>BASE_PLANET_3.GameLauncher</string>
+	<string>PlanetSurvivalGame.GameLauncher</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.amazon.BASE_PLANET_3</string>
+	<string>com.amazon.PlanetSurvivalGame</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

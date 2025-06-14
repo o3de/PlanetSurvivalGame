@@ -1,4 +1,4 @@
-<u>Supported o3de versions</u> : **23.10**
+<u>Supported o3de versions</u> : **24.09.2**
 
 # Planet Survival Game: Point and Click, Turn Based Strategy Game (By Starr Shaw)
 

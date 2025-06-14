@@ -1,7 +1,7 @@
 {
     "Tags": ["Android"],
     "android_settings" : {
-        "package_name" : "org.o3de.BASE_PLANET_3",
+        "package_name" : "org.o3de.PlanetSurvivalGame",
         "version_number" : 1,
         "version_name" : "1.0.0.0",
         "orientation" : "landscape"
